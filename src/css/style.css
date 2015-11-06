@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+$charcoal: #353535;
+
+body {
+  color: $charcoal;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSw0REFBNEQ7O0FBRzVEO0VBQ0UsZUFBaUI7RUFDakIsa0NBQWtDO0VBQ2xDLG1CQUFtQjtDQUlwQjs7QUFIQztFQUNFLGdCQUFnQjtDQUNqQiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybChodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9T3N3YWxkKTtcbiRjaGFyY29hbDogIzM1MzUzNTtcblxuYm9keSB7XG4gIGNvbG9yOiAkY2hhcmNvYWw7XG4gIGZvbnQtZmFtaWx5OiAnT3N3YWxkJywgc2Fucy1zZXJpZjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBoMSB7XG4gICAgZm9udC1zaXplOiA1MHB4O1xuICB9XG59XG4iXX0= */
