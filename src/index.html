@@ -18,14 +18,15 @@
     <h3>Hungry yet thoughtful</h3>
     <img src="img/bespectacled-bear.png" alt="bespectacled bear">
     <!-- @if NODE_ENV == 'DEVELOPMENT' -->
-    <script src="js/script1.js"></script>
-    <script src="js/script2.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- @if NODE_ENV == 'DEVELOPMENT' -->
     <script src="localhost:35729/livereload.js"></script>
     <!-- @endif -->
     <!-- @endif -->
     <!-- @if NODE_ENV == 'PRODUCTION' -->
-    <script src="js/main.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
     <!-- @endif -->
   </body>
 </html>

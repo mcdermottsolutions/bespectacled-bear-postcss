@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/js/script2.es6"],"names":[],"mappings":";;AAAA,OAAO,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC","file":"script2.js","sourcesContent":["console.log('script2');\n"]}

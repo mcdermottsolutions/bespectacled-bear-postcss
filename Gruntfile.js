@@ -68,7 +68,7 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         files: {
-          'dist/js/main.min.js': 'dev/js/*.js'
+          'dist/js/scripts.min.js': 'dev/js/scripts.js'
         }
       }
     },
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
       dev: {
         expand: true,
         cwd: 'src/',
-        src: ['img/*', 'css/*', '!**/style.css'],
+        src: ['img/*', 'css/*', '!**/style.css', 'js/*', '!**/scripts.es6'],
         dest: 'dev/',
         filter: 'isFile',
       },
